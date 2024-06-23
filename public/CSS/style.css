@@ -1,0 +1,662 @@
+body {
+    font-weight: 300;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  #home-page {
+    padding-top: 2%;
+    background-image: url("./images/beautiful-arrangement-different-books.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Navbar */
+  
+  .container {
+    max-width: 1250px;
+  }
+  
+  .nav-logo {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #000;
+    /* transition: 0.5s; */
+  }
+  
+  .nav-logo:hover {
+    font-weight: 900;
+    color: #9eb8d9;
+    /* transition: 0.5s; */
+  }
+  
+  .dropdown {
+    position: relative !important;
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .nav-link {
+    color: #000;
+    font-weight: 400;
+    font-size: 17px;
+    /* transition: 0.3s; */
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    color: #9eb8d9;
+  }
+  
+  .nav-icons .fa-regular:hover,
+  .far,
+  .nav-icons .fa-regular:active {
+    font-weight: 600;
+    color: #9eb8d9;
+  }
+  
+  .log-in-btn {
+    border-color: #9eb8d9;
+    color: #fff;
+  }
+  
+  .log-in-btn:hover {
+    border-color: #96afcf;
+    background-color: #96afcf;
+    color: #fff;
+  }
+  
+  .sign-up-btn {
+    background-color: #9eb8d9;
+    color: #fff;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #fff;
+    color: #9eb8d9;
+  }
+  
+  /* Fixed navbar */
+  
+  .header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 99;
+  }
+  
+  .home-fixed {
+    margin-top: 93px;
+  }
+  
+  /* Navbar Dropdown */
+  
+  .dropdown-m {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 60px;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    padding: 5% 8%;
+  }
+  
+  .dropdown-m h3 {
+    font-size: 27px;
+  }
+  
+  .dropdown-m li {
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-m li a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* .header-fixed{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 0 114px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      z-index: 99;
+  }
+  
+  .home-fixed{
+      margin-top: 103px;
+  }
+  
+  .header-fixed .nav-logo, .header-fixed .nav-link, .header-fixed .log-in-btn{
+      color: #9EB8D9;
+  }
+  
+  .header-fixed .log-in-btn:hover{
+      color: #fff;
+  }
+  
+  
+  .header-fixed .sign-up-btn:hover{
+      border:1px solid #9EB8D9;
+  } */
+  
+  /* Home Section */
+  
+  #home {
+    padding: 5.5% 8% 9%;
+  }
+  
+  #home h1 {
+    /* width: 40%; */
+    font-weight: 600;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  #home p {
+    width: 60%;
+    margin-bottom: 5%;
+    font-size: 17px;
+  }
+  
+  .search-box {
+    position: relative;
+    width: 400px;
+    height: 60px;
+  }
+  
+  .home-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 0;
+    font-size: 15px;
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .search-btn {
+    position: absolute;
+    color: #fff;
+    background-color: #9eb8d9;
+    text-decoration: none;
+    padding: 9px 0 0 30px;
+    top: 7px;
+    right: 10px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #96afcf;
+    color: #fff;
+  }
+  
+  /* Features Section */
+  
+  /* #features {
+    padding: 9% 7% 15%;
+    color: black;
+  }
+  
+  #features h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  .text-bright {
+    color: #9eb8d9;
+  }
+  
+  .b-img {
+    width: 15%;
+    float: left;
+    margin-right: 6%;
+  }
+  
+  .features-text {
+    margin-left: 21%;
+    width: 70%;
+    display: block;
+    font-size: 15.4px;
+  }
+  
+  .text-link {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+  }
+  
+  .text-link:hover {
+    color: #9eb8d9;
+  } */
+  
+  /* Popular Section */
+  
+  #popular {
+    padding: 5% 10% 0;
+    position: relative;
+    height: 700px;
+  }
+  
+  #popular h1 {
+    text-align: left;
+    color: #9eb8d9;
+    font-size: 45px;
+  }
+  
+  .prod-wrapper {
+    justify-content: center;
+  }
+  
+  .slide-container {
+    overflow: hidden;
+  }
+  
+  .prod {
+    position: relative;
+    display: inline-block;
+    border: #e7e7e7 1px solid;
+    padding: 3px;
+    margin-right: 40px;
+  }
+  
+  .prod:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.2s ease-out;
+  }
+  
+  .prod:first-child {
+    margin-left: 10px;
+  }
+  
+  .prod-icons {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .prod-icons i {
+    color: #9eb8d9;
+  }
+  
+  .prod-icons i:hover,
+  .prod-icons i.clicked {
+    font-weight: 600;
+  }
+  
+  .prod:hover .prod-icons {
+    max-height: 100px;
+  }
+  
+  .image-box {
+    background-color: #eef5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  
+  .image-box img {
+    width: 40%;
+    min-height: 140px;
+    max-height: 140px;
+  }
+  
+  .price-off {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    background-color: #646363;
+    color: #fff;
+    padding: 3px;
+  }
+  
+  .prod-info {
+    padding: 10px 7px;
+  }
+  
+  .prod-name {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+  }
+  
+  .prod-price {
+    float: right;
+    font-size: 13px;
+    color: #9eb8d9;
+    font-weight: 600;
+  }
+  
+  .prod-info hr {
+    width: 12%;
+    margin: 6px 0 2px;
+  }
+  
+  .author-name {
+    font-size: 11px;
+  }
+  
+  .prev-button,
+  .next-button {
+    color: #fff;
+    background-color: #9eb8d9;
+    padding: 17px 11px;
+    border-radius: 25px;
+    z-index: 2;
+    position: absolute;
+    top: 19%;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #96afcf;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  
+  .next-button {
+    right: 2%;
+  }
+  
+  /* Experience Section */
+  
+  #experience {
+    padding: 7% 12%;
+  }
+  
+  #experience h1 {
+    font-size: 45px;
+    font-weight: 800;
+  }
+  
+  #experience a {
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: #9eb8d9;
+    color: #fff;
+  }
+  
+  #experience p {
+    width: 90%;
+    font-size: 18px;
+  }
+  
+  #experience img {
+    width: 100%;
+  }
+  
+  /* Favorite Section */
+  #favorite {
+    padding: 0 10% 7%;
+  }
+  
+  .favorite-img {
+    width: 35%;
+    margin: 0 50px 50px 0;
+    height: 220px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  #favorite h1 {
+    width: 60%;
+    padding-bottom: 10px;
+  }
+  
+  #favorite p {
+    width: 80%;
+  }
+  
+  .counter-row {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .counter:nth-child(2) {
+    margin-left: 40px;
+  }
+  
+  .counter:nth-child(3) {
+    margin-left: 60px;
+  }
+  
+  .count {
+    font-weight: 500;
+    font-size: 40px;
+    color: #9eb8d9;
+  }
+  
+  .counter p {
+    font-size: 18px;
+  }
+  
+  .favorite-btn {
+    border-color: #9eb8d9;
+    color: #9eb8d9;
+  }
+  
+  .favorite-btn:hover {
+    border-color: #96afcf;
+    background-color: #96afcf;
+    color: #fff;
+  }
+  
+  #popular:nth-child(2) {
+    height: 500px;
+  }
+  
+  /* StudyHub Section*/
+  
+  /* Try Section */
+  
+  #try {
+    padding: 0 0 5%;
+  }
+  
+  .try-img {
+    width: 45%;
+    position: absolute;
+    right: 852px;
+    box-shadow: 11px 11px 76px rgba(0, 0, 0, 0.19);
+  }
+  
+  #try h1 {
+    margin: 5% 0 0 48%;
+    color: #666;
+    font-weight: 400;
+    font-size: 30px;
+    white-space: normal;
+  }
+  
+  #try p {
+    margin: 3% 0 2% 48%;
+    padding-bottom: 1.5%;
+    width: 35%;
+    color: #4e4e4e;
+    line-height: 2;
+  }
+  
+  .try-btn {
+    margin: 3% 0 0 48%;
+    text-align: center;
+    border-radius: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 15px 40px 15px 40px;
+    border: solid #9eb8d9 2px;
+    text-decoration: none;
+    transition: 0.4s;
+    background-color: #9eb8d9;
+  }
+  
+  .try-btn:hover {
+    color: #fff;
+    border: solid #96afcf 2px;
+    background: #96afcf;
+    text-decoration: none;
+  }
+  
+  /* Testimonial Section */
+  
+  #testimonial {
+    padding: 0 7%;
+  }
+  
+  #testimonial h1 {
+    color: #9eb8d9;
+  }
+  
+  .review-card {
+    background-color: var(--light-gray);
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+  }
+  
+  .review-card img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    right: calc(50% - 35px);
+    border-radius: 100%;
+    padding-bottom: 10px;
+  }
+  
+  #testimonial .prev-button,
+  #testimonial .next-button {
+    margin-top: 7%;
+  }
+  
+  footer {
+    color: #9eb8d9;
+  }
+  
+  main {
+    padding: 10%;
+  }
+  
+  main .sign-up-btn:hover {
+    border: 1px solid #9eb8d9;
+  }
+  
+  .category-link {
+    color: #9eb8d9;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: ease-out 0.2s;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .category-link:hover,
+  .category-link:active {
+    color: #96afcf;
+  }
+  
+  .lib-link-back:hover,
+  .lib-link-back:active {
+    color: #9eb8d9;
+  }
+  
+  #lib-category {
+    padding: 0 5%;
+    margin-top: 5%;
+  }
+  
+  .lib-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .lib-content .prod {
+    margin-right: 10px;
+    margin-left: 0;
+    flex: 23%;
+    margin-bottom: 10px;
+  }
+  
+  .sub-menu {
+    display: block;
+  }
+  
+  .close {
+    display: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .sub-menu a {
+    padding-left: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  }
+  
+  
+  
