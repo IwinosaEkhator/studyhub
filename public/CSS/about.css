@@ -15,7 +15,7 @@ body {
 }
 
 .image .img {
-    background-image: url("./images/Book-shopping.jpg");
+    background-image: url("../img/Book-shopping.jpg");
     height: 450px;
     background-size: cover;
     position: relative;

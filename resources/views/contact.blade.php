@@ -94,6 +94,6 @@
     <hr class="full-width">
 
 @include("includes.footer")
-    
+<script src="{{url('js/index.js')}}"></script>
 </body>
 </html>

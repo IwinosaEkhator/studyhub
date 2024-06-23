@@ -57,7 +57,7 @@
               ></a>
             </span>
             <div class="image-box">
-              <img src="./images/1.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -68,7 +68,7 @@
 
           <div class="prod">
             <div class="image-box">
-              <img src="./images/2.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -86,7 +86,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/3.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -99,7 +99,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/4.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -112,7 +112,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/5.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -125,7 +125,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/6.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -138,7 +138,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/7.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -154,11 +154,11 @@
     <section id="favorite">
       <div class="row">
         <div class="col-lg-5 fave">
-          <img class="favorite-img" src="./images/9.jpg" alt="" />
-          <img class="favorite-img" src="./images/10.jpg" alt="" />
+          <img class="favorite-img" src="{{url('img/9.jpg')}}" alt="" />
+          <img class="favorite-img" src="{{url('img/10.jpg')}}" alt="" />
           <br />
-          <img class="favorite-img" src="./images/11.jpg" alt="" />
-          <img class="favorite-img" src="./images/12.jpg" alt="" />
+          <img class="favorite-img" src="{{url('img/11.jpg')}}" alt="" />
+          <img class="favorite-img" src="{{url('img/10.jpg')}}" alt="" />
         </div>
         <div class="col-lg-7 pt-5">
           <h1>Find Your Favorite Books Here</h1>
@@ -195,7 +195,7 @@
           <div class="prod">
             <span class="price-off">18% Off</span>
             <div class="image-box">
-              <img src="./images/13.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -207,7 +207,7 @@
           <div class="prod">
             <span class="price-off">5% Off</span>
             <div class="image-box">
-              <img src="./images/14.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -219,7 +219,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/15.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -231,7 +231,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/16.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -243,7 +243,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/17.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -255,7 +255,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/18.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -267,7 +267,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/19.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -279,7 +279,7 @@
           <div class="prod">
             <span class="price-off">9% Off</span>
             <div class="image-box">
-              <img src="./images/20.jpg" alt="" />
+              <img src="{{url('img/10.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Nobody knows but you</span>
@@ -294,7 +294,7 @@
 
     <!-- Try Section -->
 
-    <section id="try">
+    {{-- <section id="try">
       <img class="try-img" src="./images/img06.jpg" alt="" />
       <h1>
         Try our free trial today. If you don’t like,<br />
@@ -307,7 +307,7 @@
         zzril delenit augue duis dolore te feugait nulla facilisi.
       </p>
       <a class="try-btn" href="">TRY OUR DEMO</a>
-    </section>
+    </section> --}}
 
     @include("includes.footer")
 
@@ -316,6 +316,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js"></script>
+    <script src="{{url('js/index.js')}}"></script>
   </body>
 </html>

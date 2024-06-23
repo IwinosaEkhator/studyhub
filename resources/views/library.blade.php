@@ -143,7 +143,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/1.jpg" alt="" />
+                  <img src="{{url('img/1.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -155,7 +155,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/2.jpg" alt="" />
+                  <img src="{{url('img/2.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -167,7 +167,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/3.jpg" alt="" />
+                  <img src="{{url('img/3.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -179,7 +179,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/4.jpg" alt="" />
+                  <img src="{{url('img/4.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -191,7 +191,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/1.jpg" alt="" />
+                  <img src="{{url('img/1.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -203,7 +203,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/2.jpg" alt="" />
+                  <img src="{{url('img/2.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -215,7 +215,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/3.jpg" alt="" />
+                  <img src="{{url('img/3.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -227,7 +227,7 @@
               <div class="prod" style="min-width: 230px">
                 <span class="price-off">14% Off</span>
                 <div class="image-box">
-                  <img src="./images/4.jpg" alt="" />
+                  <img src="{{url('img/4.jpg')}}" alt="" />
                 </div>
                 <div class="prod-info">
                   <span class="prod-name">Demon In the Wood</span>
@@ -242,6 +242,6 @@
       </aside>
     </section>
     @include("includes.footer")
-    <script src="./index.js"></script>
+    <script src="{{url('js/index.js')}}"></script>
   </body>
 </html>

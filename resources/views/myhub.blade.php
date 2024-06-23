@@ -22,7 +22,7 @@
               <a class="btn btn-lg mt-4" href=""> Explore Book</a>
             </div>
             <div class="ps-4 pt-2 col-6">
-              <img src="./images/medium-shot-woman-reading-book.jpg" alt="" />
+              <img src="{{url('img/medium-shot-woman-reading-book.jpg')}}" alt="" />
             </div>
           </div>
         </section>
@@ -49,7 +49,7 @@
               ></a>
             </span>
             <div class="image-box">
-              <img src="./images/1.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -60,7 +60,7 @@
 
           <div class="prod">
             <div class="image-box">
-              <img src="./images/2.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -81,7 +81,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/3.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -94,7 +94,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/4.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -107,7 +107,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/5.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -120,7 +120,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/6.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -133,7 +133,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/7.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -169,7 +169,7 @@
               ></a>
             </span>
             <div class="image-box">
-              <img src="./images/1.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -180,7 +180,7 @@
 
           <div class="prod">
             <div class="image-box">
-              <img src="./images/2.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -201,7 +201,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/3.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -214,7 +214,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/4.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -227,7 +227,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/5.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -240,7 +240,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/6.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -253,7 +253,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/7.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -289,7 +289,7 @@
               ></a>
             </span>
             <div class="image-box">
-              <img src="./images/1.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -300,7 +300,7 @@
 
           <div class="prod">
             <div class="image-box">
-              <img src="./images/2.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -321,7 +321,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/3.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -334,7 +334,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/4.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -347,7 +347,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/5.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -360,7 +360,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/6.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -373,7 +373,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/7.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -408,7 +408,7 @@
               ></a>
             </span>
             <div class="image-box">
-              <img src="./images/1.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">If you Knew</span>
@@ -419,7 +419,7 @@
 
           <div class="prod">
             <div class="image-box">
-              <img src="./images/2.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Frailty of a Woman</span>
@@ -440,7 +440,7 @@
           <div class="prod">
             <span class="price-off">7% Off</span>
             <div class="image-box">
-              <img src="./images/3.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">The Lost Emerald</span>
@@ -453,7 +453,7 @@
           <div class="prod">
             <span class="price-off">14% Off</span>
             <div class="image-box">
-              <img src="./images/4.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Demon In the Wood</span>
@@ -466,7 +466,7 @@
           <div class="prod">
             <span class="price-off">4% Off</span>
             <div class="image-box">
-              <img src="./images/5.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Waves</span>
@@ -479,7 +479,7 @@
           <div class="prod">
             <span class="price-off">8% Off</span>
             <div class="image-box">
-              <img src="./images/6.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Enceladus</span>
@@ -492,7 +492,7 @@
           <div class="prod">
             <span class="price-off">6% Off</span>
             <div class="image-box">
-              <img src="./images/7.jpg" alt="" />
+              <img src="{{url('img/4.jpg')}}" alt="" />
             </div>
             <div class="prod-info">
               <span class="prod-name">Beginning After The End</span>
@@ -505,6 +505,6 @@
       </div>
     </section>
     @include("includes.footer")
-    <script src="index.js"></script>
+    <script src="{{url('js/index.js')}}"></script>
   </body>
 </html>
