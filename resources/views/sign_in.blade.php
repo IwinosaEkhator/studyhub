@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="image">
-            <img src="./images/Books.jpg" alt="">
+            <img src="{{url('img/Books.jpg')}}" alt="">
         </div>
         <div class="form">
             <div class="text">
