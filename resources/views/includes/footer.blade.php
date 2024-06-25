@@ -21,7 +21,7 @@
                 <p class="my-0">+234 809-063-8254</p>
             </div>
 
-            <div class="col-lg-6 col-md-12 mb-3">
+            <div class="col-lg-2 col-md-12 mb-3">
                 <h5>Explore</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
@@ -39,7 +39,7 @@
                 </ul>
             </div>
 
-            <div class="col-lg-6 col-md-12 mb-3">
+            <div class="col-lg-2 col-md-12 mb-3">
                 <h5>Customer Service</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
@@ -53,7 +53,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-6 col-md-12 mb-3">
+            <div class="col-lg-2 col-md-12 mb-3">
                 <h5>Categories</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
@@ -70,7 +70,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-6 col-md-12 mb-3">
+            <div class="col-lg-2 col-md-12 mb-3">
                 <h5>Policy</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">

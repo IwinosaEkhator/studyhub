@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+    {{$header= "Library"}}
   @include("includes.htmlhead")
 
   <body>
@@ -74,6 +74,7 @@
         </form>
       </div>
     </header>
+
 
     <!-- Body -->
 
