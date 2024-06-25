@@ -12,7 +12,7 @@
     <div class="coming">
         <div class="text">
             <h1>We’re coming very soon.</h1>
-            <p>Our website is under construction. We’ll be here soon with our new awesome site, subscribe to be notified.</p>
+            <p>Our website is under construction. We’ll be here soon with our new awesome and amazing site, subscribe to be notified.</p>
     </div>
         <div class="timer">
             <div class="days"><p>00 Days</p></div>
