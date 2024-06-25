@@ -15,20 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ UserPageController::class , 'index' ] );
 
-Route::get('/about-us', [ AboutPageController::class , 'index' ] );
+Route::get('/about-us', [ UserPageController::class , 'about' ] );
 
-Route::get('/contact-us', [ ContactPageController::class , 'index' ] );
+Route::get('/contact-us', [ UserPageController::class , 'contact' ] );
 
-Route::get('/library', [ LibraryPageController::class , 'index' ] );
+Route::get('/library', [ UserPageController::class , 'library' ] );
 
-Route::get('/myhub', [ MyHubPageController::class , 'index' ] );
+Route::get('/myhub', [ UserPageController::class , 'myhub' ] );
 
 Route::get('/register', [ AuthController::class, 'register' ]);
 
 Route::get('/sign-in', [ AuthController::class, 'signin' ]);
 
-Route::get('/studyhub', [ StudyHubPageController::class , 'index' ] );
+Route::get('/studyhub', [ UserPageController::class , 'studyhub' ] );
 
-Route::get('/administrator', [ AdminPageController::class , 'index' ] );
+Route::get('/admin', [ AdminPageController::class , 'admin' ] );
 
-Route::get('/administrator/upload', [ UploadPageController::class , 'index' ] );
+Route::get('/admin/upload', [ AdminPageController::class , 'upload' ] );

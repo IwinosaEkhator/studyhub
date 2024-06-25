@@ -14,18 +14,44 @@ class UserPageController extends Controller
         return view('index');
     }
 
+
     // Library
 
-    public function index()
+    public function library()
     {
         return view('library');
     }
 
-    // Contact Us
+
+    // MyHub
+
+    public function myhub()
+    {
+        return view('myhub');
+    }
+
+
+    // StudyHub
     
+    public function studyhub()
+    {
+        return view('studyhub');
+    }
+
+
+    // Contact Us
+
     public function contact()
     {
         return view('contact');
+    }
+
+
+    // About Us
+
+    public function about()
+    {
+        return view('about');
     }
 
     
