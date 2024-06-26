@@ -18,8 +18,11 @@ class AdminPageController extends Controller
 
     // Upload 
 
-    public function upload()
+    public function upload(Request $request)
     {
+
+        // dd($request);
+
         // $book = new book;
         // $book->book_name = "Physics Practical Manual";
         // $book->category = "Physics";

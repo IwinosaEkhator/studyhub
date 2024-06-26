@@ -11,7 +11,8 @@
       <div class="home-content">
         <div class="formbold-main-wrapper">
           <div class="formbold-form-wrapper">
-            <form action="" method="post">
+            <form action={{  route('') }} method="post">
+              @csrf
               <div class="formbold-input-flex">
                 <div>
                   <input
@@ -173,7 +174,7 @@
                 </label>
               </div>
 
-              <button class="formbold-btn">Upload Book</button>
+              <button type="submit" class="formbold-btn">Upload Book</button>
             </form>
           </div>
         </div>
