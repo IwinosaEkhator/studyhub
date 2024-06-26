@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{$header= "Library"}}
-  @include("includes.htmlhead")
+  @php
+  $header = 'Library';
+@endphp  @include("includes.htmlhead")
 
   <body>
     <!-- Navbar -->
@@ -56,11 +57,11 @@
         </a>
 
         <ul class="nav me-5">
-          <li><a href="./index.html" class="nav-link px-3">Home</a></li>
-          <li><a href="./myHub.html" class="nav-link px-3">MyHub</a></li>
-          <li><a href="./studyHub.html" class="nav-link px-3">StudyHub</a></li>
-          <li><a href="./Library.html" class="nav-link px-3">Library</a></li>
-          <li><a href="" class="nav-link px-3">Contact-Us</a></li>
+          <li><a href="{{ route('home') }}" class="nav-link px-3">Home</a></li>
+          <li><a href="{{ route('myhub') }}" class="nav-link px-3">MyHub</a></li>
+          <li><a href="{{ route('studyhub') }}" class="nav-link px-3">StudyHub</a></li>
+          <li><a href="{{ route('library') }}" class="nav-link px-3">Library</a></li>
+          <li><a href="{{ route('contact') }}" class="nav-link px-3">Contact-Us</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">

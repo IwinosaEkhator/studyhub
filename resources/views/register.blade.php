@@ -15,7 +15,7 @@
         </div>
         <div class="form">
             <div class="text">
-                <h5>Already have an account?</h5><span><a href="Sign-in.html"><button type="button" class="btnn">SIGN IN</button></a></span>
+                <h5>Already have an account?</h5><span><a href="{{ route('signin') }}"><button type="button" class="btnn">SIGN IN</button></a></span>
             </div>
             <div class="sign">
                 <h2>Welcome to StudyHub!</h2>
