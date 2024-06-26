@@ -5,7 +5,7 @@
       <ul class="nav" style="font-size: 15px">
         <li class="nav-item me-2">
           <a
-            href="#"
+            href="{{ route('contact') }}"
             class="nav-link link-body-emphasis px-2"
             aria-current="page"
           >
@@ -14,14 +14,14 @@
           >
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-body-emphasis px-2 nav-number"
+          <a href="{{ route('contact') }}" class="nav-link link-body-emphasis px-2 nav-number"
             ><i class="fa-solid fa-mobile-screen-button me-1"></i>+234
             809-063-8254</a
           >
         </li>
       </ul>
       <ul
-        class="nav justify-content-center align-items-center nav-icons"
+        class="nav justify-content-center align-items-center  my-2 nav-icons"
         style="font-size: 20px"
       >
         <li class="nav-item">
@@ -42,7 +42,12 @@
             <li><a class="dropdown-item" href="#">Sign out</a></li>
           </ul>
         </li>
+        {{-- <div class="nav-item text-end d-flex">
+          <button type="button" class="me-2 btn log-in-btn">Login</button>
+          <button type="button" class="btn sign-up-btn">Sign-up</button>
+        </div> --}}
       </ul>
+      
     </div>
   </nav>
 
@@ -67,7 +72,7 @@
         <li><a href="{{ route('myhub') }}" class="nav-link px-3">MyHub</a></li>
         <li><a href="{{ route('studyhub') }}" class="nav-link px-3">StudyHub</a></li>
         <li><a href="{{ route('library') }}" class="nav-link px-3">Library</a></li>
-        <li><a href="{{ route('contact') }}" class="nav-link px-3">Contact-Us</a></li>
+        <li><a href="{{ route('about') }}" class="nav-link px-3">About-Us</a></li>
       </ul>
 
       <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
@@ -98,9 +103,9 @@
       />
     </form>
 
-    <li><a href="../index.blade.php" class="active">Home</a></li>
-    <li><a href="../about.blade.php">MyHub</a></li>
-    <li><a href="./videos.html">StudyHub</a></li>
-    <li><a href="./blog.html">Library</a></li>
-    <li><a href="./contact.html">About-us</a></li>
+    {{-- <li><a href="{{ route('home') }}" class="nav-link px-3">Home</a></li>
+    <li><a href="{{ route('myhub') }}" class="nav-link px-3">MyHub</a></li>
+    <li><a href="{{ route('studyhub') }}" class="nav-link px-3">StudyHub</a></li>
+    <li><a href="{{ route('library') }}" class="nav-link px-3">Library</a></li>
+    <li><a href="{{ route('contact') }}" class="nav-link px-3">Contact-Us</a></li> --}}
   </div>

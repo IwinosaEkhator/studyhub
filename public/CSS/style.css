@@ -84,7 +84,8 @@ body {
   
   .log-in-btn {
     border-color: #9eb8d9;
-    color: #fff;
+    color: #96afcf;
+    padding: 5px 20px;
   }
   
   .log-in-btn:hover {
@@ -96,6 +97,7 @@ body {
   .sign-up-btn {
     background-color: #9eb8d9;
     color: #fff;
+    padding: 5px 20px;
   }
   
   .sign-up-btn:hover {
