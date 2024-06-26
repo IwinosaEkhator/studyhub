@@ -15,7 +15,7 @@
         </div>
         <div class="form">
             <div class="text">
-                <h5>Don't have an account?</h5><span><a href="index.html"><button type="button" class="btnn">SIGN UP</button></a></span>
+                <h5>Don't have an account?</h5><span><a href="{{ route('register') }}"><button type="button" class="btnn">SIGN UP</button></a></span>
             </div>
             <div class="sign">
                 <h2>Welcome to StudyHub!</h2>
