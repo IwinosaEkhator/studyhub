@@ -5,22 +5,30 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserPageController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [ UserPageController::class , 'index' ] );
 
-Route::get('/about-us', [ UserPageController::class , 'about' ] );
+Route::controller(UserPageController::class)->group(function () {
+    Route::get('/', 'home')->name('home');
 
-Route::get('/contact-us', [ UserPageController::class , 'contact' ] );
+    Route::get('/about-us', 'about')->name('about');
 
-Route::get('/library', [ UserPageController::class , 'library' ] );
+    Route::get('/contact-us', 'contact')->name('contact');
 
-Route::get('/myhub', [ UserPageController::class , 'myhub' ] );
+    Route::get('/library', 'library')->name('library');
 
-Route::get('/register', [ AuthController::class, 'register' ]);
+    Route::get('/myhub', 'myhub')->name('myhub');
 
-Route::get('/sign-in', [ AuthController::class, 'signin' ]);
+    Route::get('/studyhub', 'studyhub')->name('studyhub');
+});
 
-Route::get('/studyhub', [ UserPageController::class , 'studyhub' ] );
+Route::controller(AdminPageController::class)->group(function () {
+    Route::get('/admin', 'admin');
 
-Route::get('/admin', [ AdminPageController::class , 'admin' ] );
+    Route::get('/admin/upload', 'upload');
+});
 
-Route::get('/admin/upload', [ AdminPageController::class , 'upload' ] );
+
+Route::controller(AuthController::class)->group(function () {
+    Route::get('/register', 'register')->name('register');
+
+    Route::get('/sign-in', 'signin')->name('signin');
+});
