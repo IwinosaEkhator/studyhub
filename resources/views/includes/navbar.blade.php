@@ -82,8 +82,13 @@
           style="width: 270px"
           placeholder="Search..."
           aria-label="Search"
-        />
-      </form>
+          />
+        </form>
+
+        <ul class="nav me-5 header-links" >
+        <li><a href="{{ route('signin') }}" class="nav-link px-3">Log-in</a></li>
+        <li><a href="{{ route('register') }}" class="nav-link px-3">Sign-up</a></li>
+      </ul>            
     </div>
   </header>
 

@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('category', 100);
             $table->string('description', 1000);
             $table->string('book_file')->unique();
+            $table->unsignedBigInteger('likes')->default(0);
             $table->string('book_cover')->unique();
             $table->timestamps();
         });

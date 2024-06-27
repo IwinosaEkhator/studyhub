@@ -22,15 +22,21 @@
                 <p>Login to your account</p>
             </div>
             <div class="formbox">
-                <form action=" " method="post">
+                <form action="/auth" method="POST">
+                    @csrf
                     <div class="list-group">
-                        <label for=" e-mail"> E-mail </label>
+                        <label for=" email"> E-mail </label>
                         <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
                     </div>
+
+                    @if ($errors->has('email'))
+                        <div>{{ $errors->first('email') }}</div>
+                    @endif
+
                     <div class="list-group">
-                        <label for="rank">Password </label>
+                        <label for="password">Password </label>
                         <div class="password-container">
-                            <input type="text" id="password" name="rank" placeholder="8+ characters" required>
+                            <input type="password" id="password" name="password" placeholder="8+ characters" required>
                             <div class="password-icon">
                                 <span>
                                     <i class="fa-regular fa-eye" id="show"></i>
@@ -39,9 +45,14 @@
                             </div>
                         </div>
                     </div>
+
+                    @if ($errors->has('password'))
+                        <div>{{ $errors->first('password') }}</div>
+                    @endif
+
                     
                     <div class="btn">
-                        <button id="button" type="submit" value="Submit">Register</button>
+                        <button id="button" type="submit" value="Submit">Login</button>
                     </div>
                     
                 </form>

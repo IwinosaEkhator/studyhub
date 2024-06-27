@@ -29,6 +29,8 @@ Route::controller(AdminPageController::class)->group(function () {
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('/register', 'register')->name('register');
+    Route::post('/postRegister', 'signup');
 
     Route::get('/sign-in', 'signin')->name('signin');
+    Route::post('/auth', 'login');
 });
