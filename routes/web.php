@@ -33,4 +33,6 @@ Route::controller(AuthController::class)->group(function () {
 
     Route::get('/sign-in', 'signin')->name('signin');
     Route::post('/auth', 'login');
+    
+    Route::get('/logout', 'logout')->name('logout');
 });
