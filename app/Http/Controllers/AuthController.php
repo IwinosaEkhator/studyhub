@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
@@ -59,7 +60,7 @@ class AuthController extends Controller
             return 'Could not register';
         }
         // return "Registration Successful";
-        return redirect()->back()->with('success', 'Registration Successful');
+        return redirect()->route('signin')->with('success', 'Registration Successful');
     }
 
     public function login(Request $request)
@@ -74,15 +75,15 @@ class AuthController extends Controller
                 'email.required' => 'Enter your email.',
                 'email.email' => 'Email not recognized.',
                 'password.required' => 'Enter your password.',
-                ]
-            );
-            
-            if ($validator->fails()) {
-                return redirect()->back()->withErrors($validator)->withInput();
-            }
-            
-            $credentials = $request->only('email', 'password');
-            
+            ]
+        );
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
+        $credentials = $request->only('email', 'password');
+
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
             return redirect()->route('home')->with('success', 'Welcome to StudyHub');
@@ -92,5 +93,12 @@ class AuthController extends Controller
                 ->withErrors(['email' => 'Either your password or email is incorrect.'])
                 ->onlyInput('email');
         }
+    }
+
+    public function logout()
+    {
+        Session::flush();
+        Auth::logout();
+        return redirect()->route('home');
     }
 }

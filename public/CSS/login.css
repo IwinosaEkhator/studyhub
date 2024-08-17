@@ -89,6 +89,13 @@
       border-radius: 6px;
       border: rgb(122, 120, 120) solid 2px;
   }
+
+  .list-group input[type = "password"]{
+      width: 85%;
+      height: 30px;
+      border-radius: 6px;
+      border: rgb(122, 120, 120) solid 2px;
+  }
   /*.password-icon{
       position: absolute;
       top: 66%;

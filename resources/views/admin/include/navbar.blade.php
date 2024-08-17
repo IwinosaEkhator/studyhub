@@ -38,6 +38,7 @@
               width="32"
               height="32"
               class="rounded-circle"
+
             />
           </a>
           <ul class="dropdown-menu text-small" style="">
@@ -45,7 +46,12 @@
             <li><a class="dropdown-item" href="#">Settings</a></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider" /></li>
+
+            @if (!Auth::user)
             <li><a class="dropdown-item" href="#">Sign Out</a></li>
+            @else
+            <li><a class="dropdown-item" href="#">Sign In</a></li>
+            @endif
           </ul>
         </div>
       </div>

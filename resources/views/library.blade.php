@@ -60,7 +60,7 @@
           <li><a href="{{ route('home') }}" class="nav-link px-3">Home</a></li>
           <li><a href="{{ route('myhub') }}" class="nav-link px-3">MyHub</a></li>
           <li><a href="{{ route('studyhub') }}" class="nav-link px-3">StudyHub</a></li>
-          <li><a href="{{ route('library') }}" class="nav-link px-3">Library</a></li>
+          <li><a href="{{ route('library') }}" class="nav-link px-3 {{ Route::currentRouteName() == 'library' ? 'active' : '' }}">Library</a></li>
           <li><a href="{{ route('contact') }}" class="nav-link px-3">Contact-Us</a></li>
         </ul>
 
